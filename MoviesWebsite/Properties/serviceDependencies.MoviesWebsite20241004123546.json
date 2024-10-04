@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/MoviesWebsite20241004123546/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDBContext_A07060E165",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/movieswebsitedbserver/databases/MoviesWebsite_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DBContext"
+    }
+  }
+}
