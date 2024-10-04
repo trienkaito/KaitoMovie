@@ -9,20 +9,11 @@
     }
   },
   "profiles": {
-    "http": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "http://localhost:5089",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
-      "applicationUrl": "https://kaitomovie1123.azurewebsites.net",
+      "applicationUrl": "https://*:*",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
