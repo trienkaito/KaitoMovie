@@ -9,6 +9,7 @@ namespace MoviesWebsite.Data
 {
     public class AppDbContext : IdentityDbContext<AppUser>
     {
+
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
